@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.945);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.main-section{
+    background-color: rgb(253, 250, 250);
+    height: 90vh;
+    width: 96em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mini-section{
+    height: 70vh;
+    width: 60em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section1{
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+} 
+
+.container{
+    background-color: hsl(270, 20%, 96%);
+    height: 100%;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    
+
+}
+
+.heading{
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+
+}
+.heading .display{
+    width: 18em;
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+.heading .icon{
+    margin-right: 1em;
+    color: white;
+}
+
+.heading img{
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+
+}
+
+.name{
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    line-height: 1em;
+}
+
+.name h4{
+    font-size: 0.8em;
+    color: rgb(253, 250, 250);
+    
+
+}
+
+.name p{
+    color: rgb(189, 185, 185);
+    font-size: 0.6em;
+}
+
+.container .headings{
+    background-color: hsl(270, 29%, 91%);
+    width: 16em;
+    border-radius: 10px 10px 10px 5px;
+    padding: 0.6em 1em;
+    margin-left: 0.8em;
+    font-size: 0.6em;
+    color: hsl(276, 55%, 52%);
+}
+
+.dogs-image{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.dogs-image img{
+    height: 3em;
+    width: 3em;
+    border-radius: 10px;
+    margin: 0 0.4em;
+    
+}
+
+
+.right-para{
+    background-color: white;
+    color: hsl(270, 7%, 64%);
+    width: 16em;
+    margin-left: 25em; 
+    padding: 0.5em 0.8em;
+    font-size: 0.5em; 
+    border-radius: 10px 10px 5px 10px;
+} 
+.right-para2{
+    background-color: white;
+    color: hsl(270, 7%, 64%);
+    width: 12em;
+    margin-left: 29em; 
+    padding: 0.8em 0.5em 0.8em 3em;
+    font-size: 0.5em; 
+    border-radius: 10px 10px 5px 10px;
+
+} 
+
+
+.btn{
+    background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    width: 18em;
+    padding: 1em ;
+    margin-left: 0.6em;
+    border-radius: 10px 10px 10px 5px;
+    color: rgba(231, 222, 222, 0.808);
+    font-size: 0.6em;
+}
+
+.price{
+    margin-left: 3em;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.price2{
+    margin-left: 5em;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    color: white;
+    
+}
+
+.label{
+    background-color: white;
+    width: 20em;
+    padding: 0.5em;
+    margin-bottom: 0.8em;
+    margin-left: 0.5em;
+    border-radius: 20px;
+    border: none;
+}
+
+
+.label i{
+    padding: 0.5em;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+    
+    
+    
+} 
+
+.section2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3em;
+}
+
+.content2{
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4em;
+}
+.content2 h1{
+    font-size: 2.5em;
+    margin-bottom: 0.8em;
+    
+}
+
+.content2 p{
+    color: hsl(270, 7%, 64%);
+    padding: 1em 0;
+    line-height: 1.7em;
+    font-size: 1em;
+    
+}
+
